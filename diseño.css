@@ -1,0 +1,65 @@
+header{
+    background-image: linear-gradient(to bottom , #fff, #ff6565);
+}
+#logo{
+    width: auto;
+    height: 70px;
+}
+header h1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-shadow: 3px 2px 5px lightblue;
+    text-align: center;
+}
+
+.contenedor-principal{
+    background-image: linear-gradient(to bottom , #ff6565, #8ec5fc);
+    display: flex;
+    justify-content: space-around;
+}
+
+#textoUno{
+    background-image: linear-gradient(to bottom , #ff6565, #8ec5fc);
+    resize: none;
+    color: black;
+    height: 500px;
+    width: 540px;
+    font-size: 35px;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 5%;
+    border: 2px solid white;
+    box-shadow: 4px 4px 10px 0 #fff;    
+}
+#textoDos{
+    background-image: linear-gradient(to bottom , #ff6565, #8ec5fc);
+    resize: none;
+    color: black;
+    height: 500px;
+    width: 540px;
+    font-size: 35px;
+    margin-top: 20px;
+    padding:10px;
+    border-radius: 5%;
+    border: 2px solid white;
+    box-shadow: 4px 4px 10px 0 #fff;
+}
+.botones{
+    color: white;
+    cursor: pointer;
+    font-size: 27px;
+    background-image: linear-gradient(to top right, #009fff, #ec2f4b);
+    padding: 3px;
+    margin: 5px 5px;
+}
+.botones:active{
+    border-color: #fff;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #8ec5fc;
+}
