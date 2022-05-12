@@ -53,6 +53,10 @@ header h1{
     background-image: linear-gradient(to top right, #009fff, #ec2f4b);
     padding: 3px;
     margin: 5px 5px;
+    transition: 1s all ;
+}
+.botones:hover{
+    transform: scale(1.1);
 }
 .botones:active{
     border-color: #fff;
