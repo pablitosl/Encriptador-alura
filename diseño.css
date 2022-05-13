@@ -21,7 +21,7 @@ header h1{
 }
 
 #textoUno{
-    background-image: linear-gradient(to bottom , #ff6565, #8ec5fc);
+    background:transparent;
     resize: none;
     color: black;
     height: 500px;
@@ -34,7 +34,7 @@ header h1{
     box-shadow: 4px 4px 10px 0 #fff;    
 }
 #textoDos{
-    background-image: linear-gradient(to bottom , #ff6565, #8ec5fc);
+    background: transparent;
     resize: none;
     color: black;
     height: 500px;
@@ -66,4 +66,20 @@ header h1{
 footer{
     text-align: center;
     background-color: #8ec5fc;
+}
+
+@media screen and (max-width:1100px){
+    .contenedor-principal{
+        display: block;
+        text-align: center;
+    }
+    #textoUno, #textoDos{
+        margin: 20px 0;
+    } 
+}
+@media screen and (max-width:580px){
+    #textoUno, #textoDos{
+        height: 300px;
+        width: 80%;
+    } 
 }
