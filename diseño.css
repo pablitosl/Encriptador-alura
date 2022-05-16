@@ -32,6 +32,7 @@ header h1{
     border-radius: 5%;
     border: 2px solid white;
     box-shadow: 4px 4px 10px 0 #fff;    
+    text-transform: lowercase;
 }
 #textoDos{
     background: transparent;
@@ -45,6 +46,7 @@ header h1{
     border-radius: 5%;
     border: 2px solid white;
     box-shadow: 4px 4px 10px 0 #fff;
+    text-transform: lowercase;
 }
 .botones{
     color: white;
