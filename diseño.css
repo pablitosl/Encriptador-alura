@@ -1,5 +1,5 @@
 header{
-    background-image: linear-gradient(to bottom , #fff, #ff6565);
+    background-color: #ff6565;
 }
 #logo{
     width: auto;
@@ -9,7 +9,7 @@ header h1{
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
     text-shadow: 3px 2px 5px lightblue;
     text-align: center;
 }
@@ -33,7 +33,9 @@ header h1{
     border: 2px solid white;
     box-shadow: 4px 4px 10px 0 #fff;    
     text-transform: lowercase;
+    outline: none;
 }
+
 #textoDos{
     background: transparent;
     resize: none;
@@ -47,21 +49,48 @@ header h1{
     border: 2px solid white;
     box-shadow: 4px 4px 10px 0 #fff;
     text-transform: lowercase;
+    outline: none;
 }
 .botones{
-    color: white;
+    text-decoration: none;
     cursor: pointer;
-    font-size: 27px;
-    background-image: linear-gradient(to top right, #009fff, #ec2f4b);
-    padding: 3px;
-    margin: 5px 5px;
-    transition: 1s all ;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    color: #fff;
+    width: 8em;
+    height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    margin-top: 5px;
 }
-.botones:hover{
-    transform: scale(1.1);
+
+button:hover {
+    animation: ani 8s linear infinite;
+    border: none;
 }
-.botones:active{
-    border-color: #fff;
+@keyframes ani {
+    0% {
+    background-position: 0%;
+    } 
+    100% {
+    background-position: 400%;
+    }
+}
+button:before {
+    content: '';
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 35px;
+    transition: 1s;
+}
+button:hover::before {
+    filter: blur(20px);
+}
+button:active {
+    background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
 }
 
 
